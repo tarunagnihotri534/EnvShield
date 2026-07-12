@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# EnvShield pre-push hook — installed by `envshield install`
+set -e
+envshield scan

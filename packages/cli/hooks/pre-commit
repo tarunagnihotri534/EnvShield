@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# EnvShield pre-commit hook — installed by `envshield install`
+set -e
+envshield scan

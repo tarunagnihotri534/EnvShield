@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - electron
+  - unrs-resolver
+  - esbuild
+  - electron-builder
+  - '@next/swc-win32-x64-msvc'
