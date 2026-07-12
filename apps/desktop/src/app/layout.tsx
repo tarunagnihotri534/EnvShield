@@ -1,12 +1,6 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import { Sidebar } from '@/components/Sidebar';
 import './globals.css';
-
-const hubotSans = localFont({
-  src: '../../HubotSans-VariableFont_wdth,wght.ttf',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: 'EnvShield',
@@ -15,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`dark ${hubotSans.className}`}>
+    <html lang="en" className="dark">
       <body className="flex h-screen overflow-hidden bg-zinc-950 text-zinc-100 antialiased">
         <Sidebar />
         <main className="flex-1 overflow-y-auto">

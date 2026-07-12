@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Hubot Sans';
+  src: url('/HubotSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Hubot Sans', system-ui, -apple-system, sans-serif;
+}
+
 /* Force dark mode — Electron apps don't have light-mode requirements here */
 :root { color-scheme: dark; }
 
