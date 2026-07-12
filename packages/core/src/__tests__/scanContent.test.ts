@@ -57,7 +57,7 @@ describe('scanContent — pattern layer', () => {
     const content = [
       'const a = 1;',
       'const b = 2;',
-      `const key = "AKIAIOSFODNN7EXAMPLE";`,
+      `const key = "${'AKIA' + 'IOSFODNN7EXAMPLE'}";`,
       'const c = 3;',
     ].join('\n');
     const results = scan(content);
