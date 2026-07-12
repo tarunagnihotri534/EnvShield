@@ -1,7 +1,6 @@
 {
   "name": "@envshield/cli",
   "version": "0.0.1",
-  "private": true,
   "type": "module",
   "bin": {
     "envshield": "./dist/bin/envshield.js"
