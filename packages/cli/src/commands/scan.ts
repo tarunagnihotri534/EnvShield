@@ -3,8 +3,8 @@ import { join } from 'node:path';
 import { resolve } from 'node:path';
 import type { Command } from 'commander';
 import chalk from 'chalk';
-import { scanContent } from '@envshield/core';
-import type { ScanResult } from '@envshield/core';
+import { scanContent } from '@envshield-core/core';
+import type { ScanResult } from '@envshield-core/core';
 import {
   getStagedDiff,
   getRepoRoot,

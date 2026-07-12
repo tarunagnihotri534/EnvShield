@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { ipc } from '@/lib/ipc';
 import type { CustomRule, RepoRecord } from '../../../electron/ipcTypes';
-import type { Severity } from '@envshield/core';
+import type { Severity } from '@envshield-core/core';
 import { Card, CardHeader, CardBody } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { SeverityBadge } from '@/components/ui/SeverityBadge';

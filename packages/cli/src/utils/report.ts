@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import type { ScanResult, Severity } from '@envshield/core';
+import type { ScanResult, Severity } from '@envshield-core/core';
 
 // ─── Severity styling ─────────────────────────────────────────────────────────
 

@@ -4,7 +4,7 @@
  * renderer and main process always agree on the contract.
  */
 
-import type { ScanResult, Severity } from '@envshield/core';
+import type { ScanResult, Severity } from '@envshield-core/core';
 
 // ─── Persisted data shapes ────────────────────────────────────────────────────
 

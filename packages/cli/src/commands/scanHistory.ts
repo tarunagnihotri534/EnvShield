@@ -2,8 +2,8 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import type { Command } from 'commander';
 import chalk from 'chalk';
-import { scanContent } from '@envshield/core';
-import type { ScanResult } from '@envshield/core';
+import { scanContent } from '@envshield-core/core';
+import type { ScanResult } from '@envshield-core/core';
 import {
   getCommitList,
   getCommitDiff,

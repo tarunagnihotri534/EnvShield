@@ -6,8 +6,8 @@
 import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
 import { join, relative, extname } from 'node:path';
 import { randomUUID } from 'node:crypto';
-import { scanContent } from '@envshield/core';
-import type { ScanResult, ScanOptions } from '@envshield/core';
+import { scanContent } from '@envshield-core/core';
+import type { ScanResult, ScanOptions } from '@envshield-core/core';
 import type { ScanHistoryEntry, CustomRule } from './ipcTypes.js';
 
 /** File extensions we scan; everything else is skipped. */

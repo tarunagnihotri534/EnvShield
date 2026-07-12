@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { ipc } from '@/lib/ipc';
 import type { RepoRecord, ScanHistoryEntry } from '../../../electron/ipcTypes';
-import type { ScanResult } from '@envshield/core';
+import type { ScanResult } from '@envshield-core/core';
 import { Card, CardHeader, CardBody } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { SeverityBadge } from '@/components/ui/SeverityBadge';

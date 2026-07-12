@@ -1,4 +1,4 @@
-import type { Severity } from '@envshield/core';
+import type { Severity } from '@envshield-core/core';
 
 const styles: Record<Severity, string> = {
   critical: 'bg-red-500/15 text-red-400 border-red-500/30',
