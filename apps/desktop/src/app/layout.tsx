@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Hubot_Sans } from 'next/font/google';
+import localFont from 'next/font/local';
 import { Sidebar } from '@/components/Sidebar';
 import './globals.css';
 
-const hubotSans = Hubot_Sans({
-  subsets: ['latin'],
+const hubotSans = localFont({
+  src: '../../HubotSans-VariableFont_wdth,wght.ttf',
   display: 'swap',
 });
 
